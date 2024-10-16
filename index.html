@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPM Gauge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="gauge">
+        <div class="dial">
+          <div class="needle" id="needle"></div>
+        </div>
+        <div class="rpm-text" id="rpmText">0 RPM</div>
+      </div>
+
+      <input
+        type="range"
+        id="rpmSlider"
+        min="0"
+        max="8000"
+        step="100"
+        value="0" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
