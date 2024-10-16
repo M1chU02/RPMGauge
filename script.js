@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function () {
   const needle = document.getElementById("needle");
   const rpmSlider = document.getElementById("rpmSlider");
